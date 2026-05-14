@@ -1,0 +1,33 @@
+{
+  "name": "acp",
+  "description": "Agent-aicoder marketplace — engineering discipline skills and templates for Claude Code.",
+  "owner": {
+    "name": "guzhu"
+  },
+  "plugins": [
+    {
+      "name": "agent-aicoder",
+      "source": "./",
+      "description": "Engineering judgment for AI coding agents — 8 skills (acp-bug-fix, acp-code-review, acp-refactor, acp-release-check, acp-test-first, acp-feature-add, acp-investigate, acp-plan-task) plus the /acp-init slash command.",
+      "version": "0.2.0",
+      "author": {
+        "name": "guzhu"
+      },
+      "homepage": "https://github.com/muyi126/agent-aicoder",
+      "repository": "https://github.com/muyi126/agent-aicoder",
+      "license": "MIT",
+      "keywords": [
+        "ai-coding",
+        "skills",
+        "code-review",
+        "bug-fix",
+        "refactor",
+        "release-check",
+        "test-first",
+        "engineering-discipline",
+        "playbook"
+      ],
+      "category": "engineering-practice"
+    }
+  ]
+}

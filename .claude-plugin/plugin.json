@@ -1,0 +1,29 @@
+{
+  "name": "agent-aicoder",
+  "version": "0.3.0",
+  "description": "Engineering judgment for AI coding agents — 14 skills (acp-bug-fix, acp-code-review, acp-refactor, acp-release-check, acp-test-first, acp-feature-add, acp-investigate, acp-plan-task, acp-need-doc, acp-contract-design, acp-solution-design, acp-task-list, acp-execute-tasks, acp-update-doc) plus slash commands (/acp-init, /acp-need-doc, /acp-contract-design, /acp-solution-design, /acp-task-list, /acp-execute-tasks, /acp-code-review, /acp-release-check).",
+  "author": {
+    "name": "guzhu",
+    "url": "https://github.com/muyi126/agent-aicoder"
+  },
+  "homepage": "https://github.com/muyi126/agent-aicoder",
+  "repository": "https://github.com/muyi126/agent-aicoder",
+  "license": "MIT",
+  "keywords": [
+    "ai-coding",
+    "skills",
+    "code-review",
+    "bug-fix",
+    "refactor",
+    "release-check",
+    "test-first",
+    "engineering-discipline",
+    "playbook"
+  ],
+  "skills": [
+    "./skills"
+  ],
+  "commands": [
+    "./commands"
+  ]
+}
